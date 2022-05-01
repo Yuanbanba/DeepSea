@@ -10,62 +10,30 @@
 
 ---
 
-## Features
+深海迷你包-YuanBanban
 
-- Background FTP server for filetransfers
-- Install NSP, NSZ, XCI & XCZ files from Harddrive, Google Drive, WLAN or wired through PC, Smartphone, etc
-- Over & Underclocking
-- Update OFW & CFW through homebrew
-- Find new homebrew through the Appstore
-- Savegame management
-- Cheating in games (please don't cheat online)
-- Emulate Amiibo
-- Use all kinds of 3rd party controllers
-- Lan play (like Hamachi for your Switch)
-- Tesla overlay to control all those features (press L1+DpadDown+RightStick)
+【说明】
 
+原版DeepSea整合包https://github.com/Team-Neptune/DeepSea/releases
 
-**Please check out our [wiki](https://github.com/Team-Neptune/DeepSea/wiki) to learn about the best features**
+深海是只有FSS0引导的大气层整合包，和大气层迷你包一样可以搭积木，添加插件包和软件包，没任何区别。
 
+深海终极包=深海迷你包+特斯拉插件包+相册NRO软件包，
 
-## How to use
-Follow this guide to hack your Switch: https://switch.homebrew.guide
+更新方法，删除原TF卡上atmosphere，bootloader，config，sept和switch五个文件夹，之后再将压缩包中的文件全选复制到TF卡覆盖（推荐）。注意：TF卡上switch/checkpoint/saves/是存档备份，不要删掉。
 
-Download the latest release and put it on your SD Card<br />
-Send the Hekate payload to your Switch in RCM mode and launch the CFW
+（3）软破机，大气层的注入器内置Payload需Hekate4.2以上，SX的注入器直接可以用。
 
+短接+注入开机，点击launch，根据选择进入
 
-## Featuring
+cfw sysnand：真实系统破解状态（fss0引导）
 
-| Software | Advanced Package| Normal Package | Minimal Package |
-| -------- | :-------------: | :------------: | :------------: |
-| [AIO-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater) | ✅ | ✅ |  |
-| [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) | ✅ | ✅ | ✅ |
-| [DeepSea Assets](https://github.com/Team-Neptune/DeepSea-Assets) | ✅ | ✅ | ✅ |
-| [DeepSea Cleaner](https://github.com/Team-Neptune/DeepSea-Cleaner) | ✅ | ✅ |  |
-| [DeepSea CPR](https://github.com/Team-Neptune/CommonProblemResolver) | ✅ | ✅ |  |
-| [DeepSea Toolbox](https://github.com/Team-Neptune/DeepSea-Toolbox) | ✅ | ✅ |  |
-| [EdiZon](https://github.com/WerWolv/EdiZon) | ✅ | ✅ |  |
-| [Emuiibo](https://github.com/XorTroll/emuiibo) | ✅ | ✅ |  |
-| [Hekate](https://github.com/CTCaer/hekate) | ✅ | ✅ | ✅ |
-| [Homebrew App Store](https://gitlab.com/4TU/hb-appstore) | ✅ | ✅ | ✅ |
-| [JKSV](https://github.com/J-D-K/JKSV) | ✅ | ✅ |  |
-| [ldn_mitm](https://github.com/spacemeowx2/ldn_mitm) | ✅ |  |  |
-| [MissionControl](https://github.com/ndeadly/MissionControl) | ✅ |  |  |
-| [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader) | ✅ | ✅ |  |
-| [NX-Shell](https://github.com/joel16/NX-Shell) | ✅ |  |  |
-| [nxmtp](https://github.com/liuervehc/nxmtp) | ✅ | ✅ |  |
-| [ovlSysmodules](https://github.com/WerWolv/ovl-sysmodules) | ✅ | ✅ |  |
-| [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay) | ✅ |  |
-| [sys-clk](https://github.com/retronx-team/sys-clk) | ✅ |  |
-| [sys-con](https://github.com/cathery/sys-con) | ✅ |  |  |
-| [sys-ftpd-light](https://github.com/cathery/sys-ftpd-light) | ✅ | ✅ |  |
-| [TegraExplorer](https://github.com/joel16/NX-Shell) | ✅ |  |  |
-| [Tesla-Menu](https://github.com/WerWolv/Tesla-Menu) | ✅ | ✅ |  |
-| [TinWoo](https://github.com/mrdude2478/TinWoo) | ✅ | ✅ |  |
+cfw eumnand：虚拟系统破解状态（fss0引导）
 
+ofw sysnand：真实系统不破解状态（fss0引导）
 
+硬破机直接点击电源键开机，之后与软破机操作一样。
 
-## Credits
-* Thanks to all the previous members of Team AtlasNX for laying the groundwork for DeepSea.
-* And a huge thanks to all the awesome homebrew developers!
+（4）默认启动90dns与隐藏序号，如需联机进ofw sysnand正版系统。
+
+如需cfw sysnand破解系统联机，删除atmosphere/hosts/sysmmc.txt和修改exosphere.ini中blank_prodinfo_sysmmc=0
