@@ -1,4 +1,4 @@
-<img src="https://github.com/Yuanbanba/DeepSea/blob/master/bootlogo.jpg" align="center" width="70%" />
+<img src="https://github.com/Yuanbanba/DeepSea/blob/master/bootlogo.jpg" align="center" width="90%" />
 
 深海迷你包-YuanBanban
 
